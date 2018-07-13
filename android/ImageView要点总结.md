@@ -9,24 +9,24 @@
 * void setImageResource(int resId)    
 * void setImageURI(Uri uri)
 
-#### setImageBitmap 
+#### 1、setImageBitmap 
 实际上setImageBitmap做的事情就是把Bitmap对象封装成Drawable对象,然后调用setImageDrawable来设置图片。
 因此源码里面才写上了建议,如果需要频繁调用这个方法的话最好自己封装个固定的Drawable对象,
 直接调用setImageDrawable,这样可以减少Drawable对象。
 因为每次调用setImageBitmap方法都会对Bitmap对象new出一个Drawable。
 
-#### setImageDrawable
+#### 2、setImageDrawable
 参数是Drawable,也是可以接受不同来源的图片,方法中所做的事情就是更新ImageView的图片。
 
-#### setImageIcon
+#### 3、setImageIcon
 从源码可以看到,setImageIcon从Icon参数中获取到Drawable对象,
 然后调用setImageDrawable方法
 
-#### setImageResource
+#### 4、setImageResource
 对图片进行读取和解析的,不过是在UI主线程中进行的,所以有可能对一个Activity的启动造成延迟。
 所以顾虑到这个官方建议用setImageDrawable和setImageBitmap来代替。
 
-#### setImageURI
+#### 5、setImageURI
 从app本地资源的uri中加载图片到imageview，试过效果不好，不建议使用
 
 #### ImageView加载图片小结
