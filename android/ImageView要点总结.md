@@ -68,8 +68,6 @@
 等于是提供了该模式的一种特定值，使用这个模式只要传入相应矩阵，               
 也就能实现上述七种显示效果。           
 
-#### ImageView的scaleType小结         
-
 ## 参考文献
 1、[android imageview研究总结](http://crazyandcoder.tech/2016/04/16/android%20imageview%E7%A0%94%E7%A9%B6%E6%80%BB%E7%BB%93/)   2、[Android ImageView 的scaleType 属性图解](https://www.jianshu.com/p/32e335d5b842)             
 
