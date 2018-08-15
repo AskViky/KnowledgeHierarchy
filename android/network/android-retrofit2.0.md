@@ -7,6 +7,7 @@
 1、[OkHttp解析（一）从用法看清原理](https://www.jianshu.com/p/7b29b89cd7b5)
 2、[okHttp框架原理](https://blog.csdn.net/ami_daqi/article/details/53744722)
 3、[OKHttp原理分析](https://blog.csdn.net/u011048906/article/details/79572586)
+4、[OkHttp（基于源码的核心理解）](https://www.jianshu.com/p/89e5d5c6d77f)
 
 ## OKIO
 1、[]()
@@ -15,3 +16,4 @@
 ## RxJava
 1、[这可能是最好的RxJava 2.x 教程（完结版）](https://www.jianshu.com/p/0cd258eecf60)
 2、[RxJava 2.x 使用最佳实践](https://blog.csdn.net/zhaoyanjun6/article/details/76443347)
+
