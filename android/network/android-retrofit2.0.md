@@ -15,7 +15,3 @@
 1、[深入理解okio的优化思想](https://blog.csdn.net/zoudifei/article/details/51232711)
 2、[Okio精简高效的IO库](https://www.jianshu.com/p/5249eed1cc53)
 
-## RxJava
-1、[这可能是最好的RxJava 2.x 教程（完结版）](https://www.jianshu.com/p/0cd258eecf60)
-2、[RxJava 2.x 使用最佳实践](https://blog.csdn.net/zhaoyanjun6/article/details/76443347)
-
