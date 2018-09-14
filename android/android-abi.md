@@ -9,5 +9,6 @@
 
 ## 参考文献         
 1、[关于abiFilters的使用](https://blog.csdn.net/wove55678/article/details/52313208)      
-
+2、[由问题入手-很好-Android-ABIFilter-Device supports x86,but APK only supports armeabi-v7a,armeabi,x86_64](https://blog.csdn.net/qq_32452623/article/details/71076023)         
+   
 
